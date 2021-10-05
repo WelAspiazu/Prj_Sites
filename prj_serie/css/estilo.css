@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+
+html, body{
+	margin: 0;
+	height: 100%;
+	font-family: 'Bellota', cursive;
+}
+
+header, nav{
+	background-image: url(../img/logo3.jpg);
+}
+
+/*menu do site*/
+nav{
+	background-color: rgba(204, 237, 236, 1);
+
+}
+
+nav ul{
+	color: black;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px 20px 15px 20px;	
+}
+
+nav li:hover{
+	background: rgba(194, 231, 231, 0.4);
+}
+
+nav a:hover{
+
+	color:#79BDD0;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+/*encerra menu do site*/
+
+/*banner do site*/
+.banner img{
+	width: 100%;
+
+}
+/*encerra banner*/
+
+/*conteudo do site*/
+.container{
+	width: 1600px;
+	margin: 0 auto;
+	padding: 10px 0px;
+	text-align: center;
+	-webkit-column-count:2;
+	-webkit-column-rule-style: solid;
+}
+
+.container h1, p, ul{
+	color: white;
+	font-size: 25px;
+   -webkit-border-radius: 8px;
+	background-color: rgba(000, 000, 000, 0.6);
+	box-shadow: 15px -30px 53px #000;
+}
+
+section{
+	background: url(../img/background.jpg);
+	background-size: cover;
+}
+
+section li{
+	list-style: none;
+}
+/*formatando video*/
+video{
+	margin-left: 40px;
+}
+/*encerra formatação*/
+.rodape{
+	text-align: center;
+	font-size: 23px;
+	color:#000000;
+}

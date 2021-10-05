@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+
+html, body{
+	margin: 0;
+	height: 100%;
+	font-family: 'Bellota', cursive;
+	
+}
+
+header, nav{
+	background-image: url(../img/logo3.jpg);
+}
+
+}
+/*menu do site*/
+nav{
+	background-color: rgba(204, 237, 236, 1);
+
+}
+
+nav ul{
+	color: black;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px 20px 15px 20px;
+}
+
+nav a:hover{
+
+	color:#79BDD0;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+/*encerra menu do site*/
+
+/*banner do site*/
+
+.banner img{
+	width: 100%;
+}
+
+/*formatando img e biografia de walter*/
+.personagem{
+	margin: 0px;
+	padding: 0px;
+}
+
+.personagem img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.container{
+	text-align: center;
+	margin: 0px auto;
+	width: 1000px;
+}
+
+.container h1, p{
+	color: white;
+	font-size: 23px;
+   -webkit-border-radius: 8px;
+	background-color: rgba(000, 000, 000, 0.6);
+	box-shadow: 15px -30px 53px #000;
+}
+/*editando video do site*/
+video{
+	margin-left: 40px;
+}
+
+/*editando o roda pe*/
+.rodape{
+	text-align: center;
+	font-size: 20px;
+	color:#000000;
+}
+
+/*colocando background*/
+section{
+	background: url(../img/background.jpg);
+	background-size: cover;
+}

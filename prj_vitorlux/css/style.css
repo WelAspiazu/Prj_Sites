@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+
+.container{
+	margin: 0 auto;
+	padding: 4px 10px 0;
+	width: 900px;
+	border: 0.5px dashed rgba(165, 219, 226, 0.2);
+}
+/*formatando logo do site*/
+header{
+	padding: 20px auto;
+
+}
+/*menu do site*/
+nav{
+	background: #f60;
+}
+
+/*formatando a pagina do site*/
+body, html{
+	margin: 0;
+	height: 100%;
+	font-family: 'Bellota', cursive;
+}
+/*formatando as divisorias do site*/
+section{
+	padding: 5px 0;
+	border: 1px solid;
+}
+/*aplicando um backgroundo na section produtos*/
+#produtos{
+	background: rgba(165, 219, 226, 0.1);
+}
+
+/*formatando menu**/
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav li:hover{
+	background: rgba(194, 231, 231, 0.4);
+}
+/*encerra menu**/
+
+/*formatando banner*/
+.banner img{
+	width: 100%;
+	padding: 0 auto;
+}
+
+/*formatando botoes*/
+button, .reset{
+	background-color: blue;
+	color:white;
+	width: 90px;
+	height: 25px;
+	border-radius: 7px; 
+    cursor: pointer;
+	margin-bottom: 10px;	
+}
+
+.reset{
+	background-color: orange;
+}
+/*formatando formulario*/
+form{
+	height: 300px;
+	font-size: 23px;
+}
+/*formatando roda pe*/
+footer{
+	text-align: center;
+}
